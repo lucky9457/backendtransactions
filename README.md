@@ -136,7 +136,7 @@ This project is a simple Node.js-based RESTful API for managing transactions and
 ### Category Endpoints
 
 - **Get all categories**:  
-  `GET /categories`  
+  `GET transactions/categories`  
   Example Response:
   ```json
   [
@@ -149,7 +149,7 @@ This project is a simple Node.js-based RESTful API for managing transactions and
   ```
 
 - **Add a category**:  
-  `POST /categories`  
+  `POST transactions/categories`  
   Request Body:
   ```json
   {
@@ -166,7 +166,7 @@ This project is a simple Node.js-based RESTful API for managing transactions and
   ```
 
 - **Update a category**:  
-  `PUT /categories/:id`  
+  `PUT transactions/categories/:id`  
   Request Body:
   ```json
   {
@@ -182,7 +182,7 @@ This project is a simple Node.js-based RESTful API for managing transactions and
   ```
 
 - **Delete a category**:  
-  `DELETE /categories/:id`  
+  `DELETE transactions/categories/:id`  
   Example Response:
   ```json
   {
